@@ -1,3 +1,6 @@
+
+
+
 .calculator {
     background-color: whitesmoke;
     border: 2px solid white;
@@ -28,13 +31,13 @@
     align-items: center;
     justify-content: center;
     float: left;
-    background-color: whitesmoke;
+    background-color: gray;
     border: none;
     
 }
 
 .operator:hover{
-    font-size: xx-large;
+    font-size: x-large;
     border: 0.3px solid black;
 }
 
@@ -56,4 +59,17 @@
     align-items: center;
     justify-content: center;
     float: left;
+}
+
+.display{
+  
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    justify-content: center;
+   align-items: center;
+   text-align: right;
+   padding: 20px;
+   border-radius: 20px;
+  
 }
